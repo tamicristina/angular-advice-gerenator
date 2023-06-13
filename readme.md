@@ -1,4 +1,4 @@
-# Mobiflix
+# Advice Generator
 
 ## Sobre
 
