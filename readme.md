@@ -1,4 +1,4 @@
-# Advice Generator
+# Angular Github user search
 
 ## Sobre
 
