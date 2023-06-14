@@ -8,7 +8,8 @@
 
 ## Tecnologias &#128736;
 
-- **React Native**
+- **Angular**
+- **Angular Material**
 - **JavaScript**
 - **TypeScript**
 
