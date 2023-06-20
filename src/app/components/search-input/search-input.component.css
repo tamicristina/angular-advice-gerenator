@@ -1,0 +1,19 @@
+input {
+  border: none;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}

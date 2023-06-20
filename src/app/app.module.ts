@@ -9,6 +9,7 @@ import { SearchInputComponent } from "./components/search-input/search-input.com
 import { MatInputModule } from "@angular/material/input";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { FormsModule } from "@angular/forms";
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, SearchInputComponent],
@@ -19,6 +20,7 @@ import { FormsModule } from "@angular/forms";
     MatInputModule,
     MatFormFieldModule,
     FormsModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
