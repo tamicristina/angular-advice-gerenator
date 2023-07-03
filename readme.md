@@ -12,6 +12,7 @@
 - **Angular Material**
 - **JavaScript**
 - **TypeScript**
+- **Tailwind**
 
 ## Development server
 
