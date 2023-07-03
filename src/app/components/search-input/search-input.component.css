@@ -1,3 +1,8 @@
+button .at-mdc-button-persistent-ripple {
+  background-color: aqua;
+}
+
+/* 
 :host
   ::ng-deep
   .form-field
@@ -57,4 +62,4 @@ textarea {
 
 .example-button-row button {
   background-color: brown;
-}
+} */
