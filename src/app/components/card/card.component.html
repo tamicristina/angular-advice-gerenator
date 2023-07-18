@@ -1,5 +1,5 @@
 <div
-  class="bg-dark-blue flex items-center justify-between rounded-xl px-2 min-w-[360px] md:min-w-[460px] lg:min-w-[540px]"
+  class="bg-dark-blue flex flex-col items-center justify-between rounded-xl px-2 min-w-[360px] md:max-w-[460px] lg:max-w-[540px]"
 >
   <div class="flex my-4 mx-4 max-w-[360]">
     <div>
@@ -9,20 +9,24 @@
       />
     </div>
 
-    <div class="profile_info">
-      <span class="flex ml-8 flex-col">
+    <div
+      class="profile_info ml-8 flex-col sm:md:flex-row max-w-[360px] justify-between lg:flex"
+    >
+      <div class="flex flex-col">
         <p class="text-light-gray">User Name</p>
         <p class="text-light-blue">@user</p>
+        <span class="hidden md:flex justify-center text-left mt-8">
+          <p class="text-light-gray">Lorem Ipsum is simply dummy text.</p>
+        </span>
+      </div>
+      <div class="w-fit h-fit md:">
         <p class="text-light-gray">Joined 25 Jan 2011</p>
-      </span>
-      <span class="max-w-[300px] flex justify-center text-center">
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
-      </span>
+      </div>
     </div>
   </div>
+  <span class="max-w-[300px] flex justify-center text-center md:hidden">
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
+  </span>
 </div>
