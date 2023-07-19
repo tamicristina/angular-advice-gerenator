@@ -13,9 +13,10 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatDividerModule } from "@angular/material/divider";
 import { MatButtonModule } from "@angular/material/button";
 import { CardComponent } from './components/card/card.component';
+import { GithubUserInfosComponent } from './components/github-user-infos/github-user-infos.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SearchInputComponent, CardComponent],
+  declarations: [AppComponent, HomeComponent, SearchInputComponent, CardComponent, GithubUserInfosComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
